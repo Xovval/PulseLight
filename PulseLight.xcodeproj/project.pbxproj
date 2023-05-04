@@ -147,19 +147,15 @@
 				77AF29F829D0DAFB00EBE463 /* PulseLight-Watch-App-Info.plist */,
 				77AF29F729D0DAE300EBE463 /* PulseLight Watch App.entitlements */,
 				77DBBA3E29B61E8100C5685D /* PulseLightApp.swift */,
-				77C4D1132A01C7800082901B /* DisplayType.swift */,
 				77DBBA4029B61E8100C5685D /* StartView.swift */,
-				77AF29F129D0CA6100EBE463 /* SummaryView.swift */,
-				77AF29F529D0D67000EBE463 /* WorkoutManager.swift */,
-				77AF29F329D0D2B100EBE463 /* ActivityRingsView.swift */,
 				77AF5B0629C1C5CD008A4A85 /* SessionPagingView.swift */,
-				77C4D1112A0191520082901B /* ColorTextView.swift */,
-				77C4D10D2A0190CF0082901B /* MetricsView.swift */,
-				77C4D10F2A0191050082901B /* ElapsedTimeView.swift */,
-				77DBBA6E29B648EA00C5685D /* ColorView.swift */,
-				77DBBA6C29B625BD00C5685D /* GetHeartRate.swift */,
 				77AF5B0429C1C3E8008A4A85 /* WorkoutView.swift */,
 				77AF5B0829C1C8FF008A4A85 /* ControlsView.swift */,
+				77AF29F129D0CA6100EBE463 /* SummaryView.swift */,
+				77F8962A2A046F9300E93A21 /* Classes */,
+				77F8962B2A046FB700E93A21 /* HelperViews */,
+				77F896292A046F6F00E93A21 /* DisplayModes */,
+				77DBBA6C29B625BD00C5685D /* GetHeartRate.swift */,
 				77DBBA4229B61E8200C5685D /* Assets.xcassets */,
 				77DBBA4429B61E8200C5685D /* Preview Content */,
 			);
@@ -189,6 +185,34 @@
 				77DBBA5B29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "PulseLight Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		77F896292A046F6F00E93A21 /* DisplayModes */ = {
+			isa = PBXGroup;
+			children = (
+				77C4D1112A0191520082901B /* ColorTextView.swift */,
+				77C4D10D2A0190CF0082901B /* MetricsView.swift */,
+				77DBBA6E29B648EA00C5685D /* ColorView.swift */,
+			);
+			path = DisplayModes;
+			sourceTree = "<group>";
+		};
+		77F8962A2A046F9300E93A21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77C4D1132A01C7800082901B /* DisplayType.swift */,
+				77AF29F529D0D67000EBE463 /* WorkoutManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77F8962B2A046FB700E93A21 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				77AF29F329D0D2B100EBE463 /* ActivityRingsView.swift */,
+				77C4D10F2A0191050082901B /* ElapsedTimeView.swift */,
+			);
+			path = HelperViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
