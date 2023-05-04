@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77AF29F229D0CA6100EBE463 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF29F129D0CA6100EBE463 /* SummaryView.swift */; };
+		77AF29F429D0D2B100EBE463 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF29F329D0D2B100EBE463 /* ActivityRingsView.swift */; };
+		77AF29F629D0D67000EBE463 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF29F529D0D67000EBE463 /* WorkoutManager.swift */; };
+		77AF5B0529C1C3E8008A4A85 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF5B0429C1C3E8008A4A85 /* WorkoutView.swift */; };
+		77AF5B0729C1C5CD008A4A85 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF5B0629C1C5CD008A4A85 /* SessionPagingView.swift */; };
+		77AF5B0929C1C8FF008A4A85 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF5B0829C1C8FF008A4A85 /* ControlsView.swift */; };
+		77C4D10E2A0190CF0082901B /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4D10D2A0190CF0082901B /* MetricsView.swift */; };
+		77C4D1102A0191050082901B /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4D10F2A0191050082901B /* ElapsedTimeView.swift */; };
+		77C4D1122A0191520082901B /* ColorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4D1112A0191520082901B /* ColorTextView.swift */; };
+		77C4D1142A01C7800082901B /* DisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4D1132A01C7800082901B /* DisplayType.swift */; };
+		77DBBA3A29B61E8100C5685D /* PulseLight Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 77DBBA3929B61E8100C5685D /* PulseLight Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		77DBBA3F29B61E8100C5685D /* PulseLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA3E29B61E8100C5685D /* PulseLightApp.swift */; };
+		77DBBA4129B61E8100C5685D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA4029B61E8100C5685D /* StartView.swift */; };
+		77DBBA4329B61E8200C5685D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DBBA4229B61E8200C5685D /* Assets.xcassets */; };
+		77DBBA4629B61E8200C5685D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DBBA4529B61E8200C5685D /* Preview Assets.xcassets */; };
+		77DBBA5029B61E8200C5685D /* PulseLight_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA4F29B61E8200C5685D /* PulseLight_Watch_AppTests.swift */; };
+		77DBBA5A29B61E8200C5685D /* PulseLight_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA5929B61E8200C5685D /* PulseLight_Watch_AppUITests.swift */; };
+		77DBBA5C29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA5B29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift */; };
+		77DBBA6D29B625BD00C5685D /* GetHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA6C29B625BD00C5685D /* GetHeartRate.swift */; };
+		77DBBA6F29B648EA00C5685D /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DBBA6E29B648EA00C5685D /* ColorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77DBBA3B29B61E8100C5685D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77DBBA2D29B61E8100C5685D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DBBA3829B61E8100C5685D;
+			remoteInfo = "PulseLight Watch App";
+		};
+		77DBBA4C29B61E8200C5685D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77DBBA2D29B61E8100C5685D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DBBA3829B61E8100C5685D;
+			remoteInfo = "PulseLight Watch App";
+		};
+		77DBBA5629B61E8200C5685D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77DBBA2D29B61E8100C5685D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DBBA3829B61E8100C5685D;
+			remoteInfo = "PulseLight Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77DBBA6229B61E8200C5685D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				77DBBA3A29B61E8100C5685D /* PulseLight Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77AF29F129D0CA6100EBE463 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		77AF29F329D0D2B100EBE463 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		77AF29F529D0D67000EBE463 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		77AF29F729D0DAE300EBE463 /* PulseLight Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PulseLight Watch App.entitlements"; sourceTree = "<group>"; };
+		77AF29F829D0DAFB00EBE463 /* PulseLight-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PulseLight-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		77AF5B0429C1C3E8008A4A85 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		77AF5B0629C1C5CD008A4A85 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		77AF5B0829C1C8FF008A4A85 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		77C4D10D2A0190CF0082901B /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		77C4D10F2A0191050082901B /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		77C4D1112A0191520082901B /* ColorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextView.swift; sourceTree = "<group>"; };
+		77C4D1132A01C7800082901B /* DisplayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayType.swift; sourceTree = "<group>"; };
+		77DBBA3329B61E8100C5685D /* PulseLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DBBA3929B61E8100C5685D /* PulseLight Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseLight Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DBBA3E29B61E8100C5685D /* PulseLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLightApp.swift; sourceTree = "<group>"; };
+		77DBBA4029B61E8100C5685D /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		77DBBA4229B61E8200C5685D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77DBBA4529B61E8200C5685D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77DBBA4B29B61E8200C5685D /* PulseLight Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseLight Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DBBA4F29B61E8200C5685D /* PulseLight_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLight_Watch_AppTests.swift; sourceTree = "<group>"; };
+		77DBBA5529B61E8200C5685D /* PulseLight Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseLight Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DBBA5929B61E8200C5685D /* PulseLight_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLight_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		77DBBA5B29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLight_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77DBBA6C29B625BD00C5685D /* GetHeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHeartRate.swift; sourceTree = "<group>"; };
+		77DBBA6E29B648EA00C5685D /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77DBBA3629B61E8100C5685D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA4829B61E8200C5685D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA5229B61E8200C5685D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77DBBA2C29B61E8100C5685D = {
+			isa = PBXGroup;
+			children = (
+				77DBBA3D29B61E8100C5685D /* PulseLight Watch App */,
+				77DBBA4E29B61E8200C5685D /* PulseLight Watch AppTests */,
+				77DBBA5829B61E8200C5685D /* PulseLight Watch AppUITests */,
+				77DBBA3429B61E8100C5685D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77DBBA3429B61E8100C5685D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77DBBA3329B61E8100C5685D /* PulseLight.app */,
+				77DBBA3929B61E8100C5685D /* PulseLight Watch App.app */,
+				77DBBA4B29B61E8200C5685D /* PulseLight Watch AppTests.xctest */,
+				77DBBA5529B61E8200C5685D /* PulseLight Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77DBBA3D29B61E8100C5685D /* PulseLight Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				77AF29F829D0DAFB00EBE463 /* PulseLight-Watch-App-Info.plist */,
+				77AF29F729D0DAE300EBE463 /* PulseLight Watch App.entitlements */,
+				77DBBA3E29B61E8100C5685D /* PulseLightApp.swift */,
+				77C4D1132A01C7800082901B /* DisplayType.swift */,
+				77DBBA4029B61E8100C5685D /* StartView.swift */,
+				77AF29F129D0CA6100EBE463 /* SummaryView.swift */,
+				77AF29F529D0D67000EBE463 /* WorkoutManager.swift */,
+				77AF29F329D0D2B100EBE463 /* ActivityRingsView.swift */,
+				77AF5B0629C1C5CD008A4A85 /* SessionPagingView.swift */,
+				77C4D1112A0191520082901B /* ColorTextView.swift */,
+				77C4D10D2A0190CF0082901B /* MetricsView.swift */,
+				77C4D10F2A0191050082901B /* ElapsedTimeView.swift */,
+				77DBBA6E29B648EA00C5685D /* ColorView.swift */,
+				77DBBA6C29B625BD00C5685D /* GetHeartRate.swift */,
+				77AF5B0429C1C3E8008A4A85 /* WorkoutView.swift */,
+				77AF5B0829C1C8FF008A4A85 /* ControlsView.swift */,
+				77DBBA4229B61E8200C5685D /* Assets.xcassets */,
+				77DBBA4429B61E8200C5685D /* Preview Content */,
+			);
+			path = "PulseLight Watch App";
+			sourceTree = "<group>";
+		};
+		77DBBA4429B61E8200C5685D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77DBBA4529B61E8200C5685D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77DBBA4E29B61E8200C5685D /* PulseLight Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77DBBA4F29B61E8200C5685D /* PulseLight_Watch_AppTests.swift */,
+			);
+			path = "PulseLight Watch AppTests";
+			sourceTree = "<group>";
+		};
+		77DBBA5829B61E8200C5685D /* PulseLight Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77DBBA5929B61E8200C5685D /* PulseLight_Watch_AppUITests.swift */,
+				77DBBA5B29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "PulseLight Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77DBBA3229B61E8100C5685D /* PulseLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DBBA6329B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight" */;
+			buildPhases = (
+				77DBBA3129B61E8100C5685D /* Resources */,
+				77DBBA6229B61E8200C5685D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DBBA3C29B61E8100C5685D /* PBXTargetDependency */,
+			);
+			name = PulseLight;
+			productName = PulseLight;
+			productReference = 77DBBA3329B61E8100C5685D /* PulseLight.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		77DBBA3829B61E8100C5685D /* PulseLight Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DBBA5F29B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch App" */;
+			buildPhases = (
+				77DBBA3529B61E8100C5685D /* Sources */,
+				77DBBA3629B61E8100C5685D /* Frameworks */,
+				77DBBA3729B61E8100C5685D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseLight Watch App";
+			productName = "PulseLight Watch App";
+			productReference = 77DBBA3929B61E8100C5685D /* PulseLight Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77DBBA4A29B61E8200C5685D /* PulseLight Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DBBA6629B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch AppTests" */;
+			buildPhases = (
+				77DBBA4729B61E8200C5685D /* Sources */,
+				77DBBA4829B61E8200C5685D /* Frameworks */,
+				77DBBA4929B61E8200C5685D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DBBA4D29B61E8200C5685D /* PBXTargetDependency */,
+			);
+			name = "PulseLight Watch AppTests";
+			productName = "PulseLight Watch AppTests";
+			productReference = 77DBBA4B29B61E8200C5685D /* PulseLight Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77DBBA5429B61E8200C5685D /* PulseLight Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77DBBA6929B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch AppUITests" */;
+			buildPhases = (
+				77DBBA5129B61E8200C5685D /* Sources */,
+				77DBBA5229B61E8200C5685D /* Frameworks */,
+				77DBBA5329B61E8200C5685D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DBBA5729B61E8200C5685D /* PBXTargetDependency */,
+			);
+			name = "PulseLight Watch AppUITests";
+			productName = "PulseLight Watch AppUITests";
+			productReference = 77DBBA5529B61E8200C5685D /* PulseLight Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77DBBA2D29B61E8100C5685D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					77DBBA3229B61E8100C5685D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					77DBBA3829B61E8100C5685D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					77DBBA4A29B61E8200C5685D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 77DBBA3829B61E8100C5685D;
+					};
+					77DBBA5429B61E8200C5685D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 77DBBA3829B61E8100C5685D;
+					};
+				};
+			};
+			buildConfigurationList = 77DBBA3029B61E8100C5685D /* Build configuration list for PBXProject "PulseLight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77DBBA2C29B61E8100C5685D;
+			productRefGroup = 77DBBA3429B61E8100C5685D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77DBBA3229B61E8100C5685D /* PulseLight */,
+				77DBBA3829B61E8100C5685D /* PulseLight Watch App */,
+				77DBBA4A29B61E8200C5685D /* PulseLight Watch AppTests */,
+				77DBBA5429B61E8200C5685D /* PulseLight Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77DBBA3129B61E8100C5685D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA3729B61E8100C5685D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DBBA4629B61E8200C5685D /* Preview Assets.xcassets in Resources */,
+				77DBBA4329B61E8200C5685D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA4929B61E8200C5685D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA5329B61E8200C5685D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77DBBA3529B61E8100C5685D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AF5B0929C1C8FF008A4A85 /* ControlsView.swift in Sources */,
+				77C4D10E2A0190CF0082901B /* MetricsView.swift in Sources */,
+				77C4D1122A0191520082901B /* ColorTextView.swift in Sources */,
+				77DBBA6F29B648EA00C5685D /* ColorView.swift in Sources */,
+				77C4D1142A01C7800082901B /* DisplayType.swift in Sources */,
+				77DBBA4129B61E8100C5685D /* StartView.swift in Sources */,
+				77C4D1102A0191050082901B /* ElapsedTimeView.swift in Sources */,
+				77AF29F429D0D2B100EBE463 /* ActivityRingsView.swift in Sources */,
+				77DBBA6D29B625BD00C5685D /* GetHeartRate.swift in Sources */,
+				77DBBA3F29B61E8100C5685D /* PulseLightApp.swift in Sources */,
+				77AF29F229D0CA6100EBE463 /* SummaryView.swift in Sources */,
+				77AF29F629D0D67000EBE463 /* WorkoutManager.swift in Sources */,
+				77AF5B0529C1C3E8008A4A85 /* WorkoutView.swift in Sources */,
+				77AF5B0729C1C5CD008A4A85 /* SessionPagingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA4729B61E8200C5685D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DBBA5029B61E8200C5685D /* PulseLight_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DBBA5129B61E8200C5685D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DBBA5A29B61E8200C5685D /* PulseLight_Watch_AppUITests.swift in Sources */,
+				77DBBA5C29B61E8200C5685D /* PulseLight_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77DBBA3C29B61E8100C5685D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DBBA3829B61E8100C5685D /* PulseLight Watch App */;
+			targetProxy = 77DBBA3B29B61E8100C5685D /* PBXContainerItemProxy */;
+		};
+		77DBBA4D29B61E8200C5685D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DBBA3829B61E8100C5685D /* PulseLight Watch App */;
+			targetProxy = 77DBBA4C29B61E8200C5685D /* PBXContainerItemProxy */;
+		};
+		77DBBA5729B61E8200C5685D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77DBBA3829B61E8100C5685D /* PulseLight Watch App */;
+			targetProxy = 77DBBA5629B61E8200C5685D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77DBBA5D29B61E8200C5685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77DBBA5E29B61E8200C5685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		77DBBA6029B61E8200C5685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PulseLight Watch App/PulseLight Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseLight Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseLight-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PulseLight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mediark.PulseLight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		77DBBA6129B61E8200C5685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PulseLight Watch App/PulseLight Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseLight Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseLight-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PulseLight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mediark.PulseLight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		77DBBA6429B61E8200C5685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseLight;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mediark.PulseLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		77DBBA6529B61E8200C5685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseLight;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mediark.PulseLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77DBBA6729B61E8200C5685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mediark.PulseLight-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLight Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseLight Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		77DBBA6829B61E8200C5685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mediark.PulseLight-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLight Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseLight Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		77DBBA6A29B61E8200C5685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mediark.PulseLight-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseLight Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		77DBBA6B29B61E8200C5685D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P68YZ92R5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mediark.PulseLight-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseLight Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77DBBA3029B61E8100C5685D /* Build configuration list for PBXProject "PulseLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DBBA5D29B61E8200C5685D /* Debug */,
+				77DBBA5E29B61E8200C5685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77DBBA5F29B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DBBA6029B61E8200C5685D /* Debug */,
+				77DBBA6129B61E8200C5685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77DBBA6329B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DBBA6429B61E8200C5685D /* Debug */,
+				77DBBA6529B61E8200C5685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77DBBA6629B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DBBA6729B61E8200C5685D /* Debug */,
+				77DBBA6829B61E8200C5685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77DBBA6929B61E8200C5685D /* Build configuration list for PBXNativeTarget "PulseLight Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DBBA6A29B61E8200C5685D /* Debug */,
+				77DBBA6B29B61E8200C5685D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77DBBA2D29B61E8100C5685D /* Project object */;
+}
