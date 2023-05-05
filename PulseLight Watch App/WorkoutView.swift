@@ -14,9 +14,9 @@ struct WorkoutView: View {
     //study code
     @State private var fakeBPM: Double = 80
     @State private var bpmArray: [Double] = []
-    private let low: Double = 120
-    private let middle: Double = 150
-    private let high: Double = 180
+    private let low: Double = 140
+    private let middle: Double = 170
+    private let high: Double = 190
     
     var body: some View {
         VStack{
@@ -49,11 +49,11 @@ struct WorkoutView: View {
         let elapsedTimeInterval = workoutManager.builder?.elapsedTime(at: Date())
         let elapsedTime = elapsedTimeInterval?.magnitude ?? 0
         
-            if (elapsedTime < 30) {
+            if (elapsedTime < 50) {
                 fakeBPM = bpmArray[0]
-            } else if (elapsedTime > 30 && elapsedTime < 60) {
+            } else if (elapsedTime > 50 && elapsedTime < 80) {
                 fakeBPM = bpmArray[1]
-            } else if (elapsedTime > 60 && elapsedTime < 90) {
+            } else if (elapsedTime > 80 && elapsedTime < 110) {
                 fakeBPM = bpmArray[2]
             } else {
                 fakeBPM = bpmArray[3]
