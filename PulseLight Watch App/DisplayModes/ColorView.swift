@@ -14,14 +14,17 @@ struct ColorView: View {
     //Color(hue: calcColorFromBPM(bpm: workoutManager.heartRate), saturation: 1, brightness: 1)
     let lowerLimit: Double = 120
     let upperLimit: Double = 190
+    
+    //study code
+    @Binding var bpm: Double
 
     var body: some View {
         Rectangle()
             .foregroundColor(Color.white)
             .colorMultiply(bg)
-            .onChange(of: workoutManager.heartRate) { newValue in
+            .onChange(of: bpm) { newValue in
                 withAnimation(.easeInOut(duration: 1)) {
-                    self.bg = calcColorFromBPM(bpm: workoutManager.heartRate)
+                    self.bg = calcColorFromBPM(bpm: bpm)
                 }
             }
     }
@@ -42,8 +45,8 @@ struct ColorView: View {
     }
 }
 
-struct ColorView_Previews: PreviewProvider {
+/*struct ColorView_Previews: PreviewProvider {
     static var previews: some View {
         ColorView()
     }
-}
+}*/

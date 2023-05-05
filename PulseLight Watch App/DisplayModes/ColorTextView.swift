@@ -14,16 +14,19 @@ struct ColorTextView: View {
     let lowerLimit: Double = 120
     let upperLimit: Double = 190
     
+    //study code
+    @Binding var bpm: Double
+    
     var body: some View {
         /*Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) + " bpm").foregroundColor(Color(hue: calcColorFromBPM(bpm: workoutManager.heartRate), saturation: 1, brightness: 1))*/
         VStack {
             /*Text("120").foregroundColor(Color(hue: calcColorFromBPM(bpm: 120), saturation: 1, brightness: 1)).font(.system(size: 80))*/
-            Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) )
+            Text(bpm.formatted(.number.precision(.fractionLength(0))))
                 .foregroundColor(Color.white)
                 .colorMultiply(bg)
-                .onChange(of: workoutManager.heartRate) { newValue in
+                .onChange(of: bpm) { newValue in
                     withAnimation(.easeInOut(duration: 1)) {
-                        self.bg = calcColorFromBPM(bpm: workoutManager.heartRate)
+                        self.bg = calcColorFromBPM(bpm: bpm)
                     }
                 }.font(.system(size: 80))
             Text("bpm").font(.system(size: 30))
@@ -46,8 +49,8 @@ struct ColorTextView: View {
     }
 }
 
-struct ColorTextView_Previews: PreviewProvider {
+/*struct ColorTextView_Previews: PreviewProvider {
     static var previews: some View {
         ColorTextView()
     }
-}
+}*/

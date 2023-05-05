@@ -11,6 +11,9 @@ import HealthKit
 struct MetricsView: View {
     @EnvironmentObject var workoutManager: WorkoutManager
     
+    //study code
+    @Binding var bpm: Double
+    
     var body: some View {
         TimelineView(MetricsTimelineSchedule(from: workoutManager.builder?.startDate ?? Date(),
                                              isPaused: workoutManager.session?.state == .paused)) { context in
@@ -19,7 +22,7 @@ struct MetricsView: View {
                     .foregroundStyle(.yellow)
                 Text(Measurement(value: workoutManager.activeEnergy, unit: UnitEnergy.kilocalories)
                         .formatted(.measurement(width: .abbreviated, usage: .workout, numberFormatStyle: .number.precision(.fractionLength(0)))))
-                Text(workoutManager.heartRate.formatted(.number.precision(.fractionLength(0))) + " bpm")
+                Text(bpm.formatted(.number.precision(.fractionLength(0))) + " bpm")
                 Text(Measurement(value: workoutManager.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
             }
             .font(.system(.title, design: .rounded).monospacedDigit().lowercaseSmallCaps())
@@ -31,11 +34,11 @@ struct MetricsView: View {
     }
 }
 
-struct MetricsView_Previews: PreviewProvider {
+/*struct MetricsView_Previews: PreviewProvider {
     static var previews: some View {
         MetricsView().environmentObject(WorkoutManager())
     }
-}
+}*/
 
 private struct MetricsTimelineSchedule: TimelineSchedule {
     var startDate: Date
